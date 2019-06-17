@@ -9,16 +9,12 @@ body {
     background: #777;
 }
 
-
-.box {
-    background-color: #ebebeb;
-}
-
 #header{
     width: 100%;
     margin: 10px;
     padding: 25px;
     text-align: center;
+    background-color: #ebebeb;
 }
 
 #nav{
@@ -26,32 +22,43 @@ body {
     margin: 10px;
     padding: 25px;
     text-align: center;
+    background-color: #ebebeb;
 }
 
 #section{
-    width: 100%;
+    width: 495px;
     margin: 10px;
     padding: 25px;
     text-align: center;
     float: left;
+    overflow:auto;
+    background-color: #ebebeb;
 }
 
 .article{
     color: #ebebeb;
     background-color: #777;
+    margin-top: 20px;
+    width: 495px;
+    float: left;
 }
 
 .h, .p{
     color: #777;
     background-color: #ebebeb;
+    margin: 20px;
+    padding: 10px;
+    clear:both;
 }
 
 #aside{
-    width: 100%;
+    width: 325px;
     margin: 10px;
     padding: 25px;
     text-align: center;
     float: left;
+    background-color: #ebebeb;
+    height: 206.5px;
 }
 
 #footer{
@@ -60,4 +67,5 @@ body {
     padding: 25px;
     text-align: center;
     clear: both;
+    background-color: #ebebeb;
 }
